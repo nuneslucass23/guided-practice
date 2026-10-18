@@ -221,8 +221,6 @@ git clone https://github.com/nuneslucass23/guided-practice.git ~/.claude/skills/
 
 Then restart Claude Code. The skill appears as `/guided-practice`.
 
-> **Private repository:** cloning needs access to your GitHub account on that machine. If `git clone` asks for credentials or fails with "repository not found", log in first with `gh auth login` (GitHub CLI), or use an SSH URL if you have SSH keys set up.
-
 **Alternative: keep the repository elsewhere and link it.** Use this if you want the repository in your projects folder:
 
 ```bash
