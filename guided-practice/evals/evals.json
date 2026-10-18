@@ -1,0 +1,23 @@
+{
+  "skill_name": "guided-practice",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm a first-year student and I've only done a few React tutorials. I want to build the login page of my React app (Vite project, already created, with Bootstrap installed) myself. Teach me while I do it: explain each step and check my work, don't write it for me.",
+      "expected_output": "Beginner depth: short task map, then ONE step in the step format with every part of commands/code explained, predicted output, handoff to the user. No full solution dumped.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "walk me through setting up a GitHub Actions pipeline for our Node monorepo: test matrix on node 18/20/22, dependency caching, and a deploy job that only runs on main after tests pass. I've been doing CI/CD for years on Jenkins, just new to GHA. I'll write the yaml, you review.",
+      "expected_output": "Advanced/intermediate depth for an experienced CI engineer new to GHA: no basics lecture, maps GHA concepts to Jenkins, frames decisions and trade-offs, larger step, user writes YAML, review criteria stated; respects that user writes it.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I'm solid in Python but I've never touched Terraform. Guide me through writing a module for an S3 bucket with versioning and server-side encryption. I'll type everything; just tell me what to do and check it. Our team rule: never run terraform apply from a laptop, only through the pipeline.",
+      "expected_output": "Mixed calibration (beginner in Terraform, expert in programming): explains Terraform concepts using Python analogies, one step at a time, safe verification (fmt/validate/plan only), explicitly honors the team rule about apply.",
+      "files": []
+    }
+  ]
+}
